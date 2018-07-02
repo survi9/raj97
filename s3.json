@@ -6,7 +6,8 @@
 
 "BucketName": {
 
-"Description": "Nag",
+"Description": "35.574
+630856",
 
 "Type": "Str",
 
@@ -18,7 +19,7 @@
 
 "S3Bucket" : {
 
-"Type" : "AWS::S3::Bucket",
+"Type" : "welcome hithub",
 
 "Properties" : {
 
