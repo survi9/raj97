@@ -1,0 +1,45 @@
+{
+
+"AWSTemplateFormatVersion" : "2010-07-07",
+
+"Parameters" : {
+
+"BucketName": {
+
+"Description": "Nag",
+
+"Type": "Str",
+
+}
+
+},
+
+"Resources" : {
+
+"S3Bucket" : {
+
+"Type" : "AWS::S3::Bucket",
+
+"Properties" : {
+
+"BucketName": { "Ref": "BucketName" }
+
+}
+
+}
+
+},
+
+"Outputs" : {
+
+"S3BucketName" : {
+
+"Value" : {"Ref": "S3Bucket"},
+
+"Description" : "Nagaraj"
+
+}
+
+}
+
+}
